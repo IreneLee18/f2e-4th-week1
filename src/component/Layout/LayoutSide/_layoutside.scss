@@ -50,19 +50,19 @@
   }
 
   .menu-item-info {
-    @include icon-btn('../../style/resource/ic/ic_menu_info.png', '../../style/resource/ic/ic_menu_info_h.png',cover)
+    @include icon-btn('../../../style/resource/ic/ic_menu_info.png', '../../../style/resource/ic/ic_menu_info_h.png',cover)
   }
 
   .menu-item-list {
-    @include icon-btn('../../style/resource/ic/ic_menu_list.png', '../../style/resource/ic/ic_menu_list_h.png',cover)
+    @include icon-btn('../../../style/resource/ic/ic_menu_list.png', '../../../style/resource/ic/ic_menu_list_h.png',cover)
   }
 
   .menu-item-strategy {
-    @include icon-btn('../../style/resource/ic/ic_menu_strategy.png', '../../style/resource/ic/ic_menu_strategy_h.png',cover)
+    @include icon-btn('../../../style/resource/ic/ic_menu_strategy.png', '../../../style/resource/ic/ic_menu_strategy_h.png',cover)
   }
 
   .menu-item-job {
-    @include icon-btn('../../style/resource/ic/ic_menu_job.png', '../../style/resource/ic/ic_menu_job_h.png',cover)
+    @include icon-btn('../../../style/resource/ic/ic_menu_job.png', '../../../style/resource/ic/ic_menu_job_h.png',cover)
   }
 
 }
