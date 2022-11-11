@@ -55,7 +55,7 @@
         margin-top: 30px;
         @include absolute-X-center;
         top: -45px;
-        @include background-image('../resource/btn/btn_joinHand.png', 80%);
+        @include background-image('../../style/resource/btn/btn_joinHand.png', 80%);
         animation: join-hand .3s infinite;
       }
 
@@ -64,7 +64,7 @@
         width: 70px;
         height: 70px;
         margin-top: 50px;
-        @include icon-btn('../resource/btn/btn_join.png', '../resource/btn/btn_join_h.png', 100%);
+        @include icon-btn('../../style/resource/btn/btn_join.png', '../../style/resource/btn/btn_join_h.png', 100%);
         z-index: 1100;
       }
     }

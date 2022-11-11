@@ -8,7 +8,7 @@
     height: 100%;
     position: absolute;
     transition: all .3s;
-    @include background-image('../../style/resource/bg/bg_menuSide.png',cover)
+    @include background-image('../../../style/resource/bg/bg_menuSide.png',cover)
   }
 
   .menu-btn {
@@ -21,11 +21,11 @@
   }
 
   .menu-isClose {
-    @include icon-btn('../../style/resource/btn/btn_burger_open.png', '../../style/resource/btn/btn_burger_open_h.png',cover);
+    @include icon-btn('../../../style/resource/btn/btn_burger_open.png', '../../../style/resource/btn/btn_burger_open_h.png',cover);
   }
 
   .menu-isOpen {
-    @include icon-btn('../../style/resource/btn/btn_burger_close.png', '../../style/resource/btn/btn_burger_close_h.png',cover);
+    @include icon-btn('../../../style/resource/btn/btn_burger_close.png', '../../../style/resource/btn/btn_burger_close_h.png',cover);
   }
 
   .menu-inner {
