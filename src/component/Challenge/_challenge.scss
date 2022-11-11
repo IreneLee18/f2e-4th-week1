@@ -41,15 +41,15 @@
     }
 
     .week1 {
-      @include background-image('../../style/resource/main/week_1.png', cover)
+      @include background-image('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/main/week_1.png?raw=true', cover)
     }
 
     .week2 {
-      @include background-image('../../style/resource/main/week_2.png', cover)
+      @include background-image('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/main/week_2.png?raw=true', cover)
     }
 
     .week3 {
-      @include background-image('../../style/resource/main/week_3.png', cover)
+      @include background-image('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/main/week_3.png?raw=true', cover)
     }
 
     h2,

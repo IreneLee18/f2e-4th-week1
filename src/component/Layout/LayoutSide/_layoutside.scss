@@ -8,7 +8,7 @@
     height: 100%;
     position: absolute;
     transition: all .3s;
-    @include background-image('../../../style/resource/bg/bg_menuSide.png',cover)
+    @include background-image('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/bg/bg_menuSide.png?raw=true',cover)
   }
 
   .menu-btn {
@@ -21,11 +21,11 @@
   }
 
   .menu-isClose {
-    @include icon-btn('../../../style/resource/btn/btn_burger_open.png', '../../../style/resource/btn/btn_burger_open_h.png',cover);
+    @include icon-btn('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/btn/btn_burger_open.png?raw=true', 'https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/btn/btn_burger_open_h.png?raw=true',cover);
   }
 
   .menu-isOpen {
-    @include icon-btn('../../../style/resource/btn/btn_burger_close.png', '../../../style/resource/btn/btn_burger_close_h.png',cover);
+    @include icon-btn('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/btn/btn_burger_close.png?raw=true', 'https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/btn/btn_burger_close_h.png?raw=true',cover);
   }
 
   .menu-inner {
@@ -50,19 +50,19 @@
   }
 
   .menu-item-info {
-    @include icon-btn('../../../style/resource/ic/ic_menu_info.png', '../../../style/resource/ic/ic_menu_info_h.png',cover)
+    @include icon-btn('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/ic/ic_menu_info.png?raw=true', 'https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/ic/ic_menu_info_h.png?raw=true',cover)
   }
 
   .menu-item-list {
-    @include icon-btn('../../../style/resource/ic/ic_menu_list.png', '../../../style/resource/ic/ic_menu_list_h.png',cover)
+    @include icon-btn('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/ic/ic_menu_list.png?raw=true', 'https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/ic/ic_menu_list_h.png?raw=true',cover)
   }
 
   .menu-item-strategy {
-    @include icon-btn('../../../style/resource/ic/ic_menu_strategy.png', '../../../style/resource/ic/ic_menu_strategy_h.png',cover)
+    @include icon-btn('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/ic/ic_menu_strategy.png?raw=true', 'https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/ic/ic_menu_strategy_h.png?raw=true',cover)
   }
 
   .menu-item-job {
-    @include icon-btn('../../../style/resource/ic/ic_menu_job.png', '../../../style/resource/ic/ic_menu_job_h.png',cover)
+    @include icon-btn('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/ic/ic_menu_job.png?raw=true', 'https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/ic/ic_menu_job_h.png?raw=true',cover)
   }
 
 }

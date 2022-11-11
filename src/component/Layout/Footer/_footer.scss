@@ -14,7 +14,7 @@ footer {
 
     &-map {
       height: 100%;
-      @include background-image('../../../style/resource/main/map.svg', cover)
+      @include background-image('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/main/map.svg?raw=true', cover)
     }
 
     &-now {
@@ -22,7 +22,7 @@ footer {
       width: 30px;
       height: 30px;
       top: 44px;
-      @include background-image('../../../style/resource/main/map_now.gif', 100%)
+      @include background-image('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/main/map_now.gif?raw=true', 100%)
     }
 
     &-finish {
@@ -31,7 +31,7 @@ footer {
       width: 100%;
       height: 100%;
       opacity: 0;
-      @include background-image('../../../style/resource/main/map_finish.svg', cover)
+      @include background-image('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/main/map_finish.svg?raw=true', cover)
     }
   }
 
@@ -53,14 +53,14 @@ footer {
       position: absolute;
       top: -45px;
       left: 14px;
-      @include background-image('../../../style/resource/btn/btn_joinHand.png', 80%);
+      @include background-image('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/btn/btn_joinHand.png?raw=true', 80%);
       animation: join-hand .3s infinite;
     }
 
     &-us {
       width: 60px;
       height: 60px;
-      @include icon-btn('../../../style/resource/btn/btn_join.png', '../../../style/resource/btn/btn_join_h.png', 100%);
+      @include icon-btn('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/btn/btn_join.png?raw=true', 'https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/btn/btn_join_h.png?raw=true', 100%);
     }
   }
 }

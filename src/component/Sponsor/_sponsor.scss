@@ -45,15 +45,15 @@
     }
 
     .block {
-      @include background-image('../../style/resource/main/logo_blockstudio.png', cover)
+      @include background-image('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/main/logo_blockstudio.png?raw=true', cover)
     }
 
     .tita {
-      @include background-image('../../style/resource/main/logo_titansoft.png', cover)
+      @include background-image('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/main/logo_titansoft.png?raw=true', cover)
     }
 
     .kdan {
-      @include background-image('../../style/resource/main/logo_kdanmobile.png', cover)
+      @include background-image('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/main/logo_kdanmobile.png?raw=true', cover)
     }
 
     p {

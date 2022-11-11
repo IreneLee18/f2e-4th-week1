@@ -48,15 +48,15 @@
     }
 
     .cool {
-      @include background-image('../../style/resource/main/question_1.png', 100%)
+      @include background-image('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/main/question_1.png?raw=true', 100%)
     }
 
     .wish {
-      @include background-image('../../style/resource/main/question_2.png', 100%)
+      @include background-image('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/main/question_2.png?raw=true', 100%)
     }
 
     .start {
-      @include background-image('../../style/resource/main/question_3.png', 100%)
+      @include background-image('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/main/question_3.png?raw=true', 100%)
     }
   }
 

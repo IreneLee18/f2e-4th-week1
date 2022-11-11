@@ -36,7 +36,7 @@
   &-footer-center {
     width: 80vw;
     height: 15%;
-    @include background-image('../../style/resource/main/road.png', 100%);
+    @include background-image('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/main/road.png?raw=true', 100%);
     @include fixed-X-center;
     bottom: 0;
     z-index: 2;
@@ -47,7 +47,7 @@
       bottom: -75px;
       width: 224px;
       height: 201px;
-      @include background-image('../resource/bg/bg_decorate_09.png', 100%);
+      @include background-image('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/bg/bg_decorate_09.png?raw=true', 100%);
       opacity: 0;
     }
 
@@ -72,12 +72,12 @@
     }
 
     &-footer-sponsor-left {
-      @include background-image('../../style/resource/bg/bg_decorate_04.png', 100%);
+      @include background-image('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/bg/bg_decorate_04.png?raw=true', 100%);
       left: 0;
     }
 
     &-footer-sponsor-right {
-      @include background-image('../../style/resource/bg/bg_decorate_08.png', 100%);
+      @include background-image('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/bg/bg_decorate_08.png?raw=true', 100%);
       right: 0;
     }
 }

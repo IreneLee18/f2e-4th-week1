@@ -36,7 +36,7 @@ header {
     position: fixed;
     right: 10px;
     top: 30px;
-    @include icon-btn('../resource/btn/btn_user.png', '../resource/btn/btn_user_h.png', 100%);
+    @include icon-btn('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/btn/btn_user.png?raw=true', 'https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/btn/btn_user_h.png?raw=true', 100%);
     width: 80px;
     height: 80px;
   }

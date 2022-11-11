@@ -4,7 +4,7 @@
   &-item {
     @include fixed-X-center;
     top: 540px;
-    @include background-image('../../style/resource/main/date_line.png', 100%);
+    @include background-image('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/main/date_line.png?raw=true', 100%);
     display: flex;
     justify-content: space-around;
     height: 100vh;
@@ -55,7 +55,7 @@
         margin-top: 30px;
         @include absolute-X-center;
         top: -45px;
-        @include background-image('../../style/resource/btn/btn_joinHand.png', 80%);
+        @include background-image('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/btn/btn_joinHand.png?raw=true', 80%);
         animation: join-hand .3s infinite;
       }
 
@@ -64,7 +64,7 @@
         width: 70px;
         height: 70px;
         margin-top: 50px;
-        @include icon-btn('../../style/resource/btn/btn_join.png', '../../style/resource/btn/btn_join_h.png', 100%);
+        @include icon-btn('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/btn/btn_join.png?raw=true', 'https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/btn/btn_join_h.png?raw=true', 100%);
         z-index: 1100;
       }
     }
@@ -77,13 +77,13 @@
         width: 120px;
         height: 120px;
         @include absolute-X-center;
-        @include background-image('../../style/resource/main/date_start.png', 100%);
+        @include background-image('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/main/date_start.png?raw=true', 100%);
       }
       .upload-icon {
         width: 120px;
         height: 120px;
         @include absolute-X-center;
-        @include background-image('../../style/resource/main/date_upload.png', 100%);
+        @include background-image('https://github.com/IreneLee18/f2e4th-week1/blob/master/src/style/resource/main/date_upload.png?raw=true', 100%);
       }
 
     }
