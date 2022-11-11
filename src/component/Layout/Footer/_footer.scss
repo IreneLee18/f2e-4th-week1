@@ -14,7 +14,7 @@ footer {
 
     &-map {
       height: 100%;
-      @include background-image('../resource/main/map.svg', cover)
+      @include background-image('../../../style/resource/main/map.svg', cover)
     }
 
     &-now {
@@ -22,7 +22,7 @@ footer {
       width: 30px;
       height: 30px;
       top: 44px;
-      @include background-image('../resource/main/map_now.gif', 100%)
+      @include background-image('../../../style/resource/main/map_now.gif', 100%)
     }
 
     &-finish {
@@ -31,7 +31,7 @@ footer {
       width: 100%;
       height: 100%;
       opacity: 0;
-      @include background-image('../resource/main/map_finish.svg', cover)
+      @include background-image('../../../style/resource/main/map_finish.svg', cover)
     }
   }
 
