@@ -1,0 +1,63 @@
+.confuse {
+  @include component-100vh;
+
+  &-title {
+    @include fixed-X-center;
+    top: 60px;
+    opacity: 0;
+
+    img {
+      @include fixed-X-center;
+      width: 50vw;
+      top: -50px;
+      object-fit: cover;
+    }
+
+    h2 {
+      text-align: center;
+      position: relative;
+      font-weight: bold;
+    }
+  }
+
+  &-item {
+    width: 80vw;
+    @include fixed-X-center;
+    top: 208px;
+    display: flex;
+    justify-content: space-between;
+
+    li {
+      width: 33%;
+      padding-bottom: 33%;
+      position: relative;
+      opacity: 0;
+    }
+
+    h5 {
+      white-space: nowrap;
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 16px;
+    }
+
+    div {
+      position: fixed;
+      width: 30%;
+      height: 100%;
+    }
+
+    .cool {
+      @include background-image('../../style/resource/main/question_1.png', 100%)
+    }
+
+    .wish {
+      @include background-image('../../style/resource/main/question_2.png', 100%)
+    }
+
+    .start {
+      @include background-image('../../style/resource/main/question_3.png', 100%)
+    }
+  }
+
+}

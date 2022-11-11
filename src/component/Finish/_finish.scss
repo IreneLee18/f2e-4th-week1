@@ -1,0 +1,112 @@
+.finish {
+  @include component-100vh;
+  opacity: 0;
+
+  &-flag {
+    @include fixed-X-center;
+    bottom: 0px;
+    width: 80vw;
+    height: 100vh;
+    @include background-image('../../style/resource/main/finish.png', cover);
+    z-index: -10;
+    opacity: 0;
+    display: none;
+  }
+
+  .logo {
+    width: 580px;
+    @include fixed-X-center;
+
+    img {
+      width: 100%;
+    }
+
+    h4 {
+      @include fixed-X-center;
+      width: 39%;
+      padding: 8px 40px;
+      text-align: center;
+      background: $hight-light;
+      border-radius: 25px;
+    }
+  }
+
+  .finish-decorate {
+    width: 80vw;
+    margin: 0 auto;
+    position: relative;
+
+    &-1,
+    &-2 {
+      position: fixed;
+      top: 350px;
+      z-index: -1000;
+      width: 430px;
+      height: 280px;
+    }
+
+    &-1 {
+      left: -100px;
+      @include background-image('../../style/resource/bg/bg_decorate_01.png', 100%)
+    }
+
+    &-2 {
+      right: -100px;
+      @include background-image('../../style/resource/bg/bg_decorate_05.png', 100%)
+    }
+
+    &-3,
+    &-4 {
+      position: fixed;
+      top: 550px;
+      width: 50%;
+      // width: 48%;
+      height: 129px;
+      z-index: 1000;
+      opacity: 0;
+    }
+
+    &-3 {
+      left: 0;
+      @include background-image('../../style/resource/main/finishLine_l.png', 100%)
+    }
+
+    &-4 {
+      right: 0;
+      @include background-image('../../style/resource/main/finishLine_r.png', 100%)
+    }
+  }
+  &-sign-up{
+    @include fixed-X-center;
+    bottom: 150px;
+    font-weight: bold;
+    @include flex-center;
+    flex-direction: column;
+    opacity: 0;
+    display: none;
+    img{
+      width: 520px;
+      height: 387px;
+      margin-bottom: 50px;
+    }
+    &-btn-group{
+      position: relative;
+    }
+    &-hand {
+      width: 80px;
+      height: 80px;
+      @include absolute-X-center;
+      top: -45px;
+      @include background-image('../resource/btn/btn_joinHand.png', 80%);
+      animation: join-hand .3s infinite;
+    }
+  
+    &-btn {
+      width: 100px;
+      height: 100px;
+      margin-top: 50px;
+      @include icon-btn('../resource/btn/btn_join.png', '../resource/btn/btn_join_h.png', 100%);
+    }
+  }
+
+}

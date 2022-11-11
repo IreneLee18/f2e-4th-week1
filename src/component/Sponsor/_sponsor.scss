@@ -1,0 +1,66 @@
+.sponsor {
+  @include component-100vh;
+  opacity: 0;
+
+  &-title {
+    @include fixed-X-center;
+    top: 65px;
+
+    img {
+      @include fixed-X-center;
+      width: 40vw;
+      top: -30px;
+      object-fit: cover;
+    }
+
+    h2 {
+      text-align: center;
+      position: relative;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+
+  }
+
+  &-item {
+    @include fixed-X-center;
+    width: 80vw;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+
+    li {
+      @include flex-center;
+      flex-direction: column;
+      width: 33.3333%;
+      opacity: 0;
+      display: none;
+      transform: translateY(100px);
+    }
+
+    div {
+      width: 250px;
+      height: 250px;
+      margin-bottom: 24px;
+    }
+
+    .block {
+      @include background-image('../../style/resource/main/logo_blockstudio.png', cover)
+    }
+
+    .tita {
+      @include background-image('../../style/resource/main/logo_titansoft.png', cover)
+    }
+
+    .kdan {
+      @include background-image('../../style/resource/main/logo_kdanmobile.png', cover)
+    }
+
+    p {
+      font-weight: bold;
+      border: 1px solid $dark-secondary;
+      border-radius: 25px;
+      padding: 4px 24px;
+    }
+  }
+}

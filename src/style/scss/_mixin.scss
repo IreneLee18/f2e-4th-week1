@@ -1,0 +1,63 @@
+@mixin position-t-r-b-l-0($position) {
+  position: $position;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flex-align-items-center {
+  display: flex;
+  align-items: center;
+}
+@mixin flex-align-items-center-justify-content-end {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+@mixin background-image($image ,$size) {
+  background-image: url($image);
+  background-size: $size;
+  background-repeat: no-repeat;
+}
+
+@mixin absolute-X-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@mixin absolute-Y-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@mixin fixed-X-center {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@mixin fixed-Y-center {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@mixin icon-btn($icon,$icon-hover,$size) {
+  cursor: pointer;
+  @include background-image($icon,$size);
+
+    &:hover {
+      @include background-image($icon-hover,$size);
+    }
+}
+@mixin component-100vh {
+  height: 100vh;
+  &-background{
+    width: 100%;
+    height: 100%;
+  }
+}

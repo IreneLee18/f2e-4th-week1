@@ -1,0 +1,16 @@
+@import './scss/variable';
+@import './scss/animation';
+@import './scss/_mixin';
+@import './scss/reset';
+@import './scss/index';
+@import '../component/Layout/LayoutSide/layoutside';
+@import '../component/Layout/Main/main';
+@import '../component/Layout/Footer/footer';
+@import '../component/Home/home';
+@import '../component/Confuse/confuse';
+@import '../component/Participant/participant';
+@import '../component/Challenge/challenge';
+@import '../component/Instruction/instruction';
+@import '../component/Award/award';
+@import '../component/Sponsor/sponsor';
+@import '../component/Finish/finish';

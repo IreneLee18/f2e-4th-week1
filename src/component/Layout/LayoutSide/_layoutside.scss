@@ -1,0 +1,93 @@
+.layout-side {
+  position: fixed;
+  height: 100vh;
+  z-index: 1200;
+
+  .menu-side {
+    width: 20px;
+    height: 100%;
+    position: absolute;
+    transition: all .3s;
+    @include background-image('../../style/resource/bg/bg_menuSide.png',cover)
+  }
+
+  .menu-btn {
+    @include absolute-Y-center;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: all .3s;
+  }
+
+  .menu-isClose {
+    @include icon-btn('../../style/resource/btn/btn_burger_open.png', '../../style/resource/btn/btn_burger_open_h.png',cover);
+  }
+
+  .menu-isOpen {
+    @include icon-btn('../../style/resource/btn/btn_burger_close.png', '../../style/resource/btn/btn_burger_close_h.png',cover);
+  }
+
+  .menu-inner {
+    position: absolute;
+    width: 135px;
+    height: 100%;
+    background: $primary;
+    padding-top: 40px;
+    transition: all .3s;
+
+    li {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+  }
+
+  .menu-item {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    margin-bottom: 4px;
+  }
+
+  .menu-item-info {
+    @include icon-btn('../../style/resource/ic/ic_menu_info.png', '../../style/resource/ic/ic_menu_info_h.png',cover)
+  }
+
+  .menu-item-list {
+    @include icon-btn('../../style/resource/ic/ic_menu_list.png', '../../style/resource/ic/ic_menu_list_h.png',cover)
+  }
+
+  .menu-item-strategy {
+    @include icon-btn('../../style/resource/ic/ic_menu_strategy.png', '../../style/resource/ic/ic_menu_strategy_h.png',cover)
+  }
+
+  .menu-item-job {
+    @include icon-btn('../../style/resource/ic/ic_menu_job.png', '../../style/resource/ic/ic_menu_job_h.png',cover)
+  }
+
+}
+
+.show-layout {
+  .menu-side {
+    left: 115px;
+  }
+  .menu-btn {
+    left: 135px;
+  }
+  .menu-inner {
+    left: 0;
+  }
+}
+
+.close-layout {
+  .menu-side {
+    left: 0;
+  }
+
+  .menu-btn {
+    left: 20px;
+  }
+  .menu-inner {
+    left: -135px;
+  }
+}

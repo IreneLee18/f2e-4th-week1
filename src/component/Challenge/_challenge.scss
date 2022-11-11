@@ -1,0 +1,122 @@
+.challenge {
+  @include component-100vh;
+
+  &-title {
+    @include fixed-X-center;
+    top: 65px;
+    opacity: 0;
+
+    img {
+      @include fixed-X-center;
+      width: 60vw;
+      top: -60px;
+      object-fit: cover;
+    }
+
+    h2 {
+      text-align: center;
+      position: relative;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+
+    .little-title {
+      white-space: nowrap;
+      @include fixed-X-center;
+      text-align: center;
+      line-height: 1.3;
+      bottom: -130px;
+    }
+  }
+
+  &-item {
+    @include fixed-X-center;
+    top: 0;
+    height: 100vh;
+    width: 90vw;
+
+    li {
+      opacity: 0;
+      display: none;
+    }
+
+    .week1 {
+      @include background-image('../../style/resource/main/week_1.png', cover)
+    }
+
+    .week2 {
+      @include background-image('../../style/resource/main/week_2.png', cover)
+    }
+
+    .week3 {
+      @include background-image('../../style/resource/main/week_3.png', cover)
+    }
+
+    h2,
+    h3 {
+      font-weight: bold;
+    }
+
+    h3 {
+      margin-top: 8px;
+    }
+
+    .challenge-by-who {
+      display: flex;
+      margin-top: 20px;
+
+      p {
+        &:first-child {
+          margin-right: 8px;
+        }
+      }
+    }
+
+    p {
+      border: 1px solid $dark-secondary;
+      border-radius: 25px;
+      padding: 4px 24px;
+    }
+
+    .challenge-detail {
+      display: flex;
+      margin-top: 20px;
+
+      p {
+        display: inline-block;
+        background: $dark-secondary;
+      }
+    }
+
+    li {
+      @include fixed-Y-center;
+      width: 100%;
+      display: flex;
+
+      .week {
+        width: 280px;
+        height: 190px;
+        margin-right: 40px;
+      }
+
+      &:nth-child(2) {
+        flex-direction: row-reverse;
+
+        .week {
+          margin-right: 0;
+          margin-left: 40px;
+        }
+
+        h2,
+        h2 {
+          text-align: right;
+        }
+
+        .challenge-by-who,
+        .challenge-detail {
+          justify-content: end;
+        }
+      }
+    }
+  }
+}

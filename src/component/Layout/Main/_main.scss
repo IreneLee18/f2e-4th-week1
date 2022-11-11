@@ -1,0 +1,83 @@
+.main {
+  &-main {
+    z-index: 10;
+    @include fixed-X-center;
+    bottom: 0;
+
+    .applicant {
+      display: flex;
+      justify-content: center;
+      width: 80vw;
+
+      li {
+        text-align: center;
+        position: relative;
+      }
+
+      p {
+        @include absolute-X-center;
+        font-weight: bold;
+
+        &:first-child {
+          top: -48px;
+        }
+
+        &:nth-child(2) {
+          top: -20px;
+          background: $primary;
+          border-radius: 25px;
+          padding: 4px 28px;
+        }
+      }
+
+    }
+  }
+
+  &-footer-center {
+    width: 80vw;
+    height: 15%;
+    @include background-image('../../style/resource/main/road.png', 100%);
+    @include fixed-X-center;
+    bottom: 0;
+    z-index: 2;
+  }
+  &-footer-left,
+    &-footer-right {
+      position: fixed;
+      bottom: -75px;
+      width: 224px;
+      height: 201px;
+      @include background-image('../resource/bg/bg_decorate_09.png', 100%);
+      opacity: 0;
+    }
+
+    &-footer-left {
+      left: 250px;
+      transform: rotateY(180deg);
+    }
+
+    &-footer-right {
+      right: 250px;
+      z-index: -1;
+    }
+
+    &-footer-sponsor-left,
+    &-footer-sponsor-right {
+      position: fixed;
+      bottom: -400px;
+      width: 340px;
+      height: 825px;
+      z-index: -1;
+      opacity: 0;
+    }
+
+    &-footer-sponsor-left {
+      @include background-image('../../style/resource/bg/bg_decorate_04.png', 100%);
+      left: 0;
+    }
+
+    &-footer-sponsor-right {
+      @include background-image('../../style/resource/bg/bg_decorate_08.png', 100%);
+      right: 0;
+    }
+}

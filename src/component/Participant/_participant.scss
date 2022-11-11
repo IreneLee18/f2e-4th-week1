@@ -1,0 +1,57 @@
+.participant {
+  @include component-100vh;
+
+  &-title {
+    @include fixed-X-center;
+    top: 65px;
+    opacity: 0;
+
+    img {
+      @include fixed-X-center;
+      width: 60vw;
+      top: -60px;
+      object-fit: cover;
+    }
+
+    h2 {
+      text-align: center;
+      position: relative;
+      font-weight: bold;
+    }
+
+    p {
+      @include fixed-X-center;
+      bottom: -100px;
+    }
+  }
+
+  &-item {
+    width: 80vw;
+    @include fixed-X-center;
+    top: 368px;
+    display: flex;
+    justify-content: space-around;
+    opacity: 0;
+
+    li {
+      width: 33.33333%;
+      position: relative;
+    }
+
+    div {
+      @include absolute-X-center;
+      width: 103px;
+      height: 60px;
+      @include icon-btn('../../style/resource/btn/btn_join.png', '../../style/resource/btn/btn_join_h.png', 100%);
+    }
+
+    h5 {
+      white-space: nowrap;
+      text-align: center;
+      font-weight: bold;
+      margin-top: 72px;
+    }
+
+  }
+
+}
