@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/f2e-4th-week1/static/css/main.2ac4a84b.css",
+    "main.js": "/f2e-4th-week1/static/js/main.4e9ae987.js",
+    "static/media/logo.png": "/f2e-4th-week1/static/media/logo.2387ec10e0475c765332.png",
+    "static/media/character_ui.gif": "/f2e-4th-week1/static/media/character_ui.d2ed812b4f134ecadf12.gif",
+    "static/media/finish.png": "/f2e-4th-week1/static/media/finish.47de3a6126551b730867.png",
+    "static/media/character_team.gif": "/f2e-4th-week1/static/media/character_team.46134ad0b79c7f758bbb.gif",
+    "static/media/character_f2e.gif": "/f2e-4th-week1/static/media/character_f2e.88c91ceb24cd0a7bf431.gif",
+    "static/media/logo_text.png": "/f2e-4th-week1/static/media/logo_text.ba3b0e157d2a1c57926f.png",
+    "static/media/start.png": "/f2e-4th-week1/static/media/start.b6699334c8ae42667199.png",
+    "static/media/bg_talking.png": "/f2e-4th-week1/static/media/bg_talking.c12bdbe2ebd02d51f1a3.png",
+    "static/media/bg_decorate_05.png": "/f2e-4th-week1/static/media/bg_decorate_05.a268cce1fc3895270363.png",
+    "static/media/bg_decorate_01.png": "/f2e-4th-week1/static/media/bg_decorate_01.ae126895467e4273353d.png",
+    "static/media/ready_frame.png": "/f2e-4th-week1/static/media/ready_frame.bf4d7b01ce5a08b3f5c4.png",
+    "index.html": "/f2e-4th-week1/index.html",
+    "main.2ac4a84b.css.map": "/f2e-4th-week1/static/css/main.2ac4a84b.css.map",
+    "main.4e9ae987.js.map": "/f2e-4th-week1/static/js/main.4e9ae987.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ac4a84b.css",
+    "static/js/main.4e9ae987.js"
+  ]
+}
