@@ -53,14 +53,14 @@ footer {
       position: absolute;
       top: -45px;
       left: 14px;
-      @include background-image('../resource/btn/btn_joinHand.png', 80%);
+      @include background-image('../../../style/resource/btn/btn_joinHand.png', 80%);
       animation: join-hand .3s infinite;
     }
 
     &-us {
       width: 60px;
       height: 60px;
-      @include icon-btn('../resource/btn/btn_join.png', '../resource/btn/btn_join_h.png', 100%);
+      @include icon-btn('../../../style/resource/btn/btn_join.png', '../../../style/resource/btn/btn_join_h.png', 100%);
     }
   }
 }
